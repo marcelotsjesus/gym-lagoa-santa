@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Spartan - Home One</title>
+    <link rel="icon" type="image/x-icon" href="{{ asset('images/spartan') }}/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://spartan.wingsts.com/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://spartan.wingsts.com/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://spartan.wingsts.com/css/aos.min.css">
+    <link rel="stylesheet" href="https://spartan.wingsts.com/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://spartan.wingsts.com/css/style.css">
+    <link rel="stylesheet" href="https://spartan.wingsts.com/css/responsive.css">
+    @livewireStyles
+</head>
+<body>
+    {{ $slot }}
+
+    <script src="https://spartan.wingsts.com/js/jquery-3.6.2.min.js"></script>
+    <script src="https://spartan.wingsts.com/js/popper.min.js"></script>
+    <script src="https://spartan.wingsts.com/js/bootstrap.min.js"></script>
+    <script src="https://spartan.wingsts.com/js/owl.carousel.min.js"></script>
+    <script src="https://spartan.wingsts.com/js/custom.js"></script>
+    <script src="https://spartan.wingsts.com/js/aos.min.js"></script>
+    @livewireScripts
+</body>
+</html>
