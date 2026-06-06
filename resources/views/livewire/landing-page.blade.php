@@ -24,15 +24,19 @@
                             <li class="nav-item">
                                 <a class="nav-link" data-link="classes-section" href="#classes">Aulas</a>
                             </li>
+                            @if(false)
                             <li class="nav-item">
                                 <a class="nav-link" data-link="pricing-section" href="#pricing">Preços</a>
                             </li>
+                            @endif
                             <li class="nav-item">
                                 <a class="nav-link" data-link="team-section" href="#team">Equipe</a>
                             </li>
+                            @if(false)
                             <li class="nav-item">
                                 <a class="nav-link" data-link="blog-section" href="#blog">Blog</a>
                             </li>
+                            @endif
                         </ul>
                         <a class="theme-btn d-inline-block d-lg-none text-decoration-none" href="#contact">
                             Inscreva-se
@@ -152,12 +156,12 @@
                                 <img src="{{ asset('images/spartan') }}/arrows.png" alt="arrows" class="border-0 three-arrows"
                                     data-aos="fade-right" data-aos-duration="1200">
                             </div>
-                            <h3>approach</h3>
-                            <p>We are a hybrid gym and training facility. We have clean, state of the art facilities
-                                with
-                                the most knowledgeable staff and cutting-edge training methods. We offer open gym,
-                                team
-                                training, group classes, boxing, cycle and personal training.</p>
+                            <h3>abordagem</h3>
+                            <p>Somos uma academia e instalação de treinamento híbrida. Temos instalações limpas e de última geração
+                                com
+                                a equipe mais conhecedora e métodos de treinamento de ponta. Oferecemos academia aberta,
+                                treinamento
+                                em equipe, aulas em grupo, boxe, ciclo e treinamento pessoal.</p>
                         </div>
                     </div>
                 </div>
@@ -175,13 +179,11 @@
             <div class="col-md-12 col-lg-4">
                 <div class="main-title-block">
                     <span data-aos="fade-up" data-aos-duration="900">FAÇA O SEU MELHOR</span>
-                    <h2 data-aos="fade-up" data-aos-duration="900">Spartan Classes</h2>
+                    <h2 data-aos="fade-up" data-aos-duration="900">Hero Challenges</h2>
                     <img src="{{ asset('images/spartan') }}/arrow_02.svg" data-aos="fade-right" data-aos-duration="1400" alt="arrow">
                 </div>
                 <div class="review-content" data-aos="fade-up" data-aos-duration="900">
-                    <p>Join our Spartan Classes for dynamic, high-intensity workouts suitable for all fitness
-                        levels. From strength training to cardio, transform your fitness routine with expert-led
-                        sessions.</p>
+                    <p>Participe de nossos Hero Challenges para treinos dinâmicos e de alta intensidade adequados para todos os níveis de condicionamento físico. Do treinamento de força ao cardio, transforme sua rotina de exercícios com sessões lideradas por especialistas.</p>
                 </div>
                 <div class="slider-button-block d-none d-lg-block" data-aos="fade-up" data-aos-duration="900">
                     <button class="owl-prev">
@@ -319,8 +321,8 @@
         <div class="row align-items-center">
             <div class="col-md-12 col-lg-6">
                 <div class="main-title-block">
-                    <span class="text-white" data-aos="fade-up" data-aos-duration="900">Do it for you!</span>
-                    <h2 data-aos="fade-up" data-aos-duration="900">Improve your life</h2>
+                    <span class="text-white" data-aos="fade-up" data-aos-duration="900">Invista em você</span>
+                    <h2 data-aos="fade-up" data-aos-duration="900">Melhore sua vida</h2>
                     <img src="{{ asset('images/spartan') }}/white-arrow.png" data-aos="fade-right" data-aos-duration="1400" alt="arrow">
                 </div>
             </div>
@@ -340,6 +342,7 @@
 
 <!-- Calculate BMI -->
 
+@if(1==2)
 <section class="bmi-calculate">
     <div class="container">
         <div class="row g-4">
@@ -440,9 +443,10 @@
         </div>
     </div>
 </section>
+@endif
 
 <!-- Pricing -->
-
+@if(1==2)
 <section class="pricing" id="pricing" data-id="pricing-section">
     <div class="container">
         <div class="row">
@@ -579,6 +583,7 @@
         </div>
     </div>
 </section>
+@endif
 
 <!-- Opening Hours -->
 
@@ -587,8 +592,8 @@
         <div class="row">
             <div class="col-md-12 col-lg-6">
                 <div class="main-title-block">
-                    <span data-aos="fade-up" data-aos-duration="900">Time gives you strength</span>
-                    <h2 data-aos="fade-up" data-aos-duration="900">Opening Hours</h2>
+                    <span data-aos="fade-up" data-aos-duration="900">O tempo te dá força</span>
+                    <h2 data-aos="fade-up" data-aos-duration="900">Nossos horários</h2>
                     <img src="{{ asset('images/spartan') }}/arrow_02.svg" data-aos="fade-right" data-aos-duration="1400" alt="arrow">
                 </div>
             </div>
@@ -596,26 +601,25 @@
         <div class="row">
             <div class="col-md-6 col-lg-5">
                 <div class="hours-content" data-aos="fade-up" data-aos-duration="800">
-                    <p>Check our flexible opening hours to find the perfect time for your workout. We're here to fit
-                        your schedule.</p>
+                    <p>Confira nosso horário de funcionamento flexível para encontrar o momento perfeito para seu treino. Estamos aqui para se ajustar à sua agenda.</p>
                     <div class="hours-block">
                         <div class="hours-flex">
                             <img src="{{ asset('images/spartan') }}/watch.svg" alt="watch">
                             <div>
-                                <span>Mon to Fri</span>
-                                <h6>5am - 9pm</h6>
+                                <span>Segunda a Sexta</span>
+                                <h6>05h - 21h</h6>
                             </div>
                         </div>
                         <div class="hours-flex">
                             <img src="{{ asset('images/spartan') }}/watch.svg" alt="watch">
                             <div>
-                                <span>Sat to Sun</span>
-                                <h6>7am - 9pm </h6>
+                                <span>Sábado e Domingo</span>
+                                <h6>07h - 21h</h6>
                             </div>
                         </div>
                     </div>
                     <button class="theme-btn" type="button">
-                        Join Now
+                        Junte-se Agora
                         <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -636,14 +640,13 @@
         <div class="row">
             <div class="col-md-12 col-lg-4">
                 <div class="main-title-block">
-                    <span data-aos="fade-up" data-aos-duration="900">Getting into shape</span>
-                    <h2 data-aos="fade-up" data-aos-duration="900">What People Says</h2>
+                    <span data-aos="fade-up" data-aos-duration="900">Entrando em forma</span>
+                    <h2 data-aos="fade-up" data-aos-duration="900">O que as pessoas dizem</h2>
                     <img src="{{ asset('images/spartan') }}/title-light-arrow.svg" data-aos="fade-right" data-aos-duration="1400"
                         alt="arrow">
                 </div>
                 <div class="review-content" data-aos="fade-up" data-aos-duration="800">
-                    <p>Experience the epitome of fitness at The Spartan Gym with state-of-the-art facilities, expert
-                        trainers, and personalized programs to unleash your inner Spartan!</p>
+                    <p>Experimente o auge do fitness na Profitness com instalações de última geração, treinadores especializados e programas personalizados para liberar seu Spartan interior!</p>
                     <div class="review-rating">
                         <ul>
                             <li>
@@ -705,18 +708,18 @@
                             </ul>
 
                             <div class="slider-review-content">
-                                <p>GYM is a game-changer. Instead of drowning in an endless chain of emails, there is
-                                    clear and easy accountability meaning tasks actually get done! GYm has helped my team and
-                                    I stay on the same page. Previously, we were all over the board. Using Gym has definitely
-                                    saved us time and money.</p>
+                                <p>GYM é um divisor de águas. Em vez de se afogar em uma cadeia interminável de e-mails, há
+                                    uma responsabilidade clara e fácil, o que significa que as tarefas realmente são concluídas! GYm ajudou minha equipe e
+                                    eu a permanecermos na mesma página. Anteriormente, estávamos todos espalhados. Usar o Gym definitivamente
+                                    nos economizou tempo e dinheiro.</p>
                             </div>
 
                             <div class="reviewer-name">
                                 <div class="review-person">
                                     <img src="{{ asset('images/spartan') }}/people/review_01.jpg" alt="person">
                                     <div>
-                                        <h5>Nyla Shaw</h5>
-                                        <p>New York</p>
+                                        <h5>Manuel Couto Santos</h5>
+                                        <p>Lagoa Santa</p>
                                     </div>
                                 </div>
                                 <img src="{{ asset('images/spartan') }}/quote.png" alt="quote">
@@ -731,16 +734,16 @@
                                 <li><i class="fa-solid fa-star"></i></li>
                             </ul>
                             <div class="slider-review-content">
-                                <p>I would recommend GYm for anyone trying to get the word out about their business. It
-                                    has saved me so much time!</p>
+                                <p>Eu recomendaria o GYm para qualquer pessoa que esteja tentando divulgar seu negócio. Isso
+                                    me economizou muito tempo!</p>
                             </div>
 
                             <div class="reviewer-name">
                                 <div class="review-person">
                                     <img src="{{ asset('images/spartan') }}/people/review_02.jpg" alt="person">
                                     <div>
-                                        <h5>Dannie Jupiter</h5>
-                                        <p>UK</p>
+                                        <h5>Ricardo Schartle</h5>
+                                        <p>Santa Luzia</p>
                                     </div>
                                 </div>
                                 <img src="{{ asset('images/spartan') }}/quote.png" alt="quote">
@@ -757,18 +760,17 @@
                             </ul>
 
                             <div class="slider-review-content">
-                                <p>GYM is a game-changer. Instead of drowning in an endless chain of emails, there is
-                                    clear and easy accountability meaning tasks actually get done! GYm has helped my team and
-                                    I stay on the same page. Previously, we were all over the board. Using Gym has definitely
-                                    saved us time and money.</p>
+                                <p>Um ótimo lugar para treinar e se manter em forma! Os equipamentos são de alta qualidade e os instrutores são muito profissionais.
+                                    As aulas são variadas e desafiadoras, o que torna cada treino interessante. O ambiente é acolhedor e motivador, perfeito para alcançar seus objetivos de fitness. Recomendo a todos que procuram um lugar para se exercitar e melhorar sua saúde!
+                                </p>
                             </div>
 
                             <div class="reviewer-name">
                                 <div class="review-person">
                                     <img src="{{ asset('images/spartan') }}/people/review_01.jpg" alt="person">
                                     <div>
-                                        <h5>Nyla Shaw</h5>
-                                        <p>New York</p>
+                                        <h5>Lúcio Campos</h5>
+                                        <p>Lagoa Santa</p>
                                     </div>
                                 </div>
                                 <img src="{{ asset('images/spartan') }}/quote.png" alt="quote">
@@ -783,16 +785,16 @@
                                 <li><i class="fa-solid fa-star"></i></li>
                             </ul>
                             <div class="slider-review-content">
-                                <p>I would recommend GYm for anyone trying to get the word out about their business. It
-                                    has saved me so much time!</p>
+                                <p>Eu recomendaria para qualquer pessoa que esteja tentando divulgar seu negócio. Isso
+                                    me economizou muito tempo!</p>
                             </div>
 
                             <div class="reviewer-name">
                                 <div class="review-person">
                                     <img src="{{ asset('images/spartan') }}/people/review_02.jpg" alt="person">
                                     <div>
-                                        <h5>Dannie Jupiter</h5>
-                                        <p>UK</p>
+                                        <h5>Renato Costa Soares</h5>
+                                        <p>Santa Luzia</p>
                                     </div>
                                 </div>
                                 <img src="{{ asset('images/spartan') }}/quote.png" alt="quote">
@@ -831,8 +833,8 @@
         <div class="row">
             <div class="col-md-12 col-lg-6">
                 <div class="main-title-block">
-                    <span data-aos="fade-up" data-aos-duration="900">Expert Team</span>
-                    <h2 data-aos="fade-up" data-aos-duration="900">World Class Trainers</h2>
+                    <span data-aos="fade-up" data-aos-duration="900">Time de Excelência</span>
+                    <h2 data-aos="fade-up" data-aos-duration="900">para você superar limites</h2>
                     <img src="{{ asset('images/spartan') }}/arrow_02.svg" data-aos="fade-right" data-aos-duration="1400" alt="arrow">
                 </div>
             </div>
@@ -845,8 +847,8 @@
                             <div class="trainer-image position-relative">
                                 <img src="{{ asset('images/spartan') }}/trainer/trainer_01.jpg" class="img-fluid" alt="trainer">
                                 <div class="trainer-content">
-                                    <h6>Skyla Smith</h6>
-                                    <p>Fitness trainer</p>
+                                    <h6>Roberto Salles</h6>
+                                    <p>Fitness Trainer</p>
                                 </div>
                             </div>
                         </div>
@@ -854,8 +856,8 @@
                             <div class="trainer-image position-relative">
                                 <img src="{{ asset('images/spartan') }}/trainer/trainer_02.jpg" class="img-fluid" alt="trainer">
                                 <div class="trainer-content">
-                                    <h6>Clemmie Bins</h6>
-                                    <p>Lifestyle coach</p>
+                                    <h6>Suzana Coelho</h6>
+                                    <p>Lifestyle Coach</p>
                                 </div>
                             </div>
                         </div>
@@ -863,8 +865,8 @@
                             <div class="trainer-image position-relative">
                                 <img src="{{ asset('images/spartan') }}/trainer/trainer_03.jpg" class="img-fluid" alt="trainer">
                                 <div class="trainer-content">
-                                    <h6>Shannon Mann</h6>
-                                    <p>Personal trainer</p>
+                                    <h6>Julio Castro</h6>
+                                    <p>Personal Trainer</p>
                                 </div>
                             </div>
                         </div>
@@ -872,8 +874,8 @@
                             <div class="trainer-image position-relative">
                                 <img src="{{ asset('images/spartan') }}/trainer/trainer_04.jpg" class="img-fluid" alt="trainer">
                                 <div class="trainer-content">
-                                    <h6>Kaci Swift</h6>
-                                    <p>Wellness specialist</p>
+                                    <h6>Sabrina Koi</h6>
+                                    <p>Nutrição</p>
                                 </div>
                             </div>
                         </div>
@@ -881,8 +883,8 @@
                             <div class="trainer-image position-relative">
                                 <img src="{{ asset('images/spartan') }}/trainer/trainer_05.jpg" class="img-fluid" alt="trainer">
                                 <div class="trainer-content">
-                                    <h6>Karen Flores</h6>
-                                    <p>Wellness specialist</p>
+                                    <h6>João Limeira</h6>
+                                    <p>Bem-estar e Nutrição</p>
                                 </div>
                             </div>
                         </div>
@@ -890,26 +892,8 @@
                             <div class="trainer-image position-relative">
                                 <img src="{{ asset('images/spartan') }}/trainer/trainer_06.jpg" class="img-fluid" alt="trainer">
                                 <div class="trainer-content">
-                                    <h6>Barry Smith</h6>
-                                    <p>Wellness specialist</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="trainer-card">
-                            <div class="trainer-image position-relative">
-                                <img src="{{ asset('images/spartan') }}/trainer/trainer_07.jpg" class="img-fluid" alt="trainer">
-                                <div class="trainer-content">
-                                    <h6>Oscar Adams</h6>
-                                    <p>Wellness specialist</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="trainer-card">
-                            <div class="trainer-image position-relative">
-                                <img src="{{ asset('images/spartan') }}/trainer/trainer_08.jpg" class="img-fluid" alt="trainer">
-                                <div class="trainer-content">
-                                    <h6>David Northrup</h6>
-                                    <p>Wellness specialist</p>
+                                    <h6>Silvio Mendes</h6>
+                                    <p>Bem-estar e Nutrição</p>
                                 </div>
                             </div>
                         </div>
@@ -921,7 +905,7 @@
 </section>
 
 <!-- Blog -->
-
+@if(1==2)
 <section class="blog" id="blog" data-id="blog-section">
     <div class="container">
         <div class="row">
@@ -995,6 +979,7 @@
         </div>
     </div>
 </section>
+@endif
 
 <!-- Contact -->
 
@@ -1003,8 +988,8 @@
         <div class="row justify-content-end">
             <div class="col-md-12 col-lg-8">
                 <div class="main-title-block">
-                    <span class="text-white" data-aos="fade-up" data-aos-duration="900">Get in touch</span>
-                    <h2 data-aos="fade-up" data-aos-duration="900">Join Today!</h2>
+                    <span class="text-white" data-aos="fade-up" data-aos-duration="900">Fale conosco</span>
+                    <h2 data-aos="fade-up" data-aos-duration="900">AINDA HOJE!</h2>
                     <img src="{{ asset('images/spartan') }}/white-arrow.png" data-aos="fade-right" data-aos-duration="1400" alt="arrow">
                 </div>
                 @if ($submissionSuccessful)
@@ -1023,44 +1008,44 @@
                 <form wire:submit="submitLead" data-aos="fade-up" data-aos-duration="800" novalidate>
                     <div class="row g-4">
                         <div class="col-md-6">
-                            <label>First Name</label>
-                            <input type="text" placeholder="Enter first name" wire:model="firstName" autocomplete="given-name">
+                            <label>Primeiro Nome</label>
+                            <input type="text" placeholder="Digite seu primeiro nome" wire:model="firstName" autocomplete="given-name">
                             @error('firstName')
                                 <div class="text-danger mt-2">{{ $message }}</div>
                             @enderror
                         </div>
                         <div class="col-md-6">
-                            <label>Last Name</label>
-                            <input type="text" placeholder="Enter last name" wire:model="lastName" autocomplete="family-name">
+                            <label>Último Nome</label>
+                            <input type="text" placeholder="Digite seu último nome" wire:model="lastName" autocomplete="family-name">
                             @error('lastName')
                                 <div class="text-danger mt-2">{{ $message }}</div>
                             @enderror
                         </div>
                         <div class="col-md-6">
                             <label>Email</label>
-                            <input type="email" placeholder="Enter email" wire:model="email" autocomplete="email">
+                            <input type="email" placeholder="Digite seu email" wire:model="email" autocomplete="email">
                             @error('email')
                                 <div class="text-danger mt-2">{{ $message }}</div>
                             @enderror
                         </div>
                         <div class="col-md-6">
-                            <label>Phone</label>
-                            <input type="text" placeholder="Enter phone" wire:model="phone" autocomplete="tel">
+                            <label>Telefone</label>
+                            <input type="text" placeholder="Digite seu telefone" wire:model="phone" autocomplete="tel">
                             @error('phone')
                                 <div class="text-danger mt-2">{{ $message }}</div>
                             @enderror
                         </div>
                         <div class="col-md-12">
-                            <label>Message</label>
-                            <textarea placeholder="Write your message" rows="2" wire:model="leadMessage"></textarea>
+                            <label>Mensagem</label>
+                            <textarea placeholder="Escreva sua mensagem" rows="2" wire:model="leadMessage"></textarea>
                             @error('leadMessage')
                                 <div class="text-danger mt-2">{{ $message }}</div>
                             @enderror
                         </div>
                     </div>
                     <button class="theme-btn" type="submit" wire:loading.attr="disabled" wire:target="submitLead">
-                        <span wire:loading.remove wire:target="submitLead">submit</span>
-                        <span wire:loading wire:target="submitLead">sending...</span>
+                        <span wire:loading.remove wire:target="submitLead">Enviar</span>
+                        <span wire:loading wire:target="submitLead">Enviando...</span>
                         <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -1084,9 +1069,9 @@
                     <a href="{{ route('home') }}" data-aos="fade-right" data-aos-duration="1200"><img
                             src="{{ asset('images/spartan') }}/footerlogo.svg" alt="logo"></a>
                     <div class="footer-logo-title position-relative">
-                        <h5 class="text-center text-lg-start" data-aos="fade-up" data-aos-duration="900">The
-                            <span>secret</span> of getting ahead is getting
-                            <span>started.</span>
+                        <h5 class="text-center text-lg-start" data-aos="fade-up" data-aos-duration="900">O
+                            <span>segredo</span> do sucesso é começar a
+                            <span>agir.</span>
                         </h5>
                         <img src="{{ asset('images/spartan') }}/footer-arrow.svg" data-aos="fade-right" data-aos-duration="1200"
                             alt="arrow">
@@ -1098,7 +1083,7 @@
             <div class="col-md-12 col-lg-4">
                 <div class="footer-links" data-aos="fade-up" data-aos-duration="800">
                     <span>Contato</span>
-                    <a href="mailto:gym@gymfitness.com.br">gym@gymfitness.com.br</a>
+                    <a href="mailto:contato@profitness.com.br">contato@profitness.com.br</a>
                     <a href="tel:+5531999999999">(31) 9999-9999</a>
                 </div>
                 <div class="footer-links" data-aos="fade-up" data-aos-duration="800">
@@ -1115,29 +1100,27 @@
                 <div class="row justify-content-end">
                     <div class="col-md-12 col-lg-5">
                         <div class="locations" data-aos="fade-up" data-aos-duration="800">
-                            <span>Our location</span>
+                            <span>Nossa localização</span>
                             <div class="mb-3 mb-md-4 mb-lg-5" data-aos="fade-right" data-aos-duration="800">
-                                <h6>New York</h6>
-                                <p>45 Grand Ventral
-                                    New York, NY 10017</p>
+                                <h6>Lagoa Santa</h6>
+                                <p>Rua Efigério Pascoal, 33, Lagoa Santa, MG 33400-000</p>
                             </div>
                             <div data-aos="fade-right" data-aos-duration="1200">
-                                <h6>Los Angeles</h6>
-                                <p>10 Port Hueneme
-                                    Los Angeles, CA 10088</p>
+                                <h6>Santa Luzia</h6>
+                                <p>Avenida dos Esportistas, 40, Santa Luzia, MG 33100-000</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-12 col-lg-5">
                         <div class="hours" data-aos="fade-up" data-aos-duration="800">
-                            <span>Working Hours</span>
+                            <span>Horário de Funcionamento</span>
                             <div class="mb-3 mb-md-4 mb-lg-5" data-aos="fade-right" data-aos-duration="1400">
-                                <h6>Monday - Friday</h6>
-                                <p>Our doors are open from 5 AM - 9 PM.</p>
+                                <h6>Segunda - Sexta</h6>
+                                <p>Nossas portas estão abertas das 5h às 21h.</p>
                             </div>
                             <div data-aos="fade-right" data-aos-duration="1600">
-                                <h6>Weekends</h6>
-                                <p>Our doors are open from 7 AM - 9 PM.</p>
+                                <h6>Finais de Semana</h6>
+                                <p>Nossas portas estão abertas das 7h às 21h.</p>
                             </div>
                         </div>
                     </div>
